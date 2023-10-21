@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .header {
+            color: green;
+        }
+    </style>
+</head>
+
+<body style="background-color: wheat;">
+    <div class="harry-potter-section">
+        
+        <div class="harry-potter-section">
+            <h1 class="header">Harry Potter and the Methods of Rationality</h1>
+            <img src="harry-potter.jpg" alt="Harry Potter" class="float-image" width="200">
+            <div id="intro" >
+              This is a fanfiction book by Eliezer Yudkowsky.
+            </div>
+            <p>
+              The story begins with Harry as a more rational individual who seeks to apply the scientific method in the magic world.
+            </p>
+            <table border="1">
+                <tr>
+                <th>Chapter</th>
+                <th>Page</th>
+                </tr>
+                <tr>
+                <td>A Day of Very Low Probability</td>
+                <td>1-7</td>
+                </tr>
+                <tr>
+                <td>Everything I Believe Is False</td>
+                <td>8-16</td>
+                </tr>
+                <tr>
+                <td>Comparing Reality To Its Alternatives</td>
+                <td>17-26</td>
+                </tr>
+                <tr>
+                <td>The Efficient Market Hypothesis</td>
+                <td>27-36</td>
+                </tr>
+                <tr>
+                <td>The Fundamental Attribution Error</td>
+                <td>36-44</td>
+                </tr>
+                <tr>
+                <td>The Planning Fallacy</td>
+                <td>45-53</td>
+                </tr>
+                <tr>
+                <td>Reciprocation</td>
+                <td>54-62</td>
+                </tr>
+                <tr>
+                <td>Positive Bias</td>
+                <td>63-71</td>
+                </tr>
+                <tr>
+                <td>Self Awareness</td>
+                <td>72-80</td>
+                </tr>
+                <tr>
+                <td>Self Awareness, Part 2</td>
+                <td>81-89</td>
+                </tr>
+            </table>      
+
+            <div class="positioned-element">
+              <p><i>A quote from the book: "There is no justice in the laws of nature, no term for fairness in the equations of motion. 
+                The Universe is neither evil, nor good, it simply does not care. The stars don't care, or the Sun, or the sky."
+              </i></p>
+            </div>
+          </div>
+        
+
+    </div>
+
+
+    <div class="flexbox-layout">
+        <div class="first-green-block"><span>1</span></div>
+        <div class="yellow-block"><span>2</span></div>
+        <div class="yellow-block"><span>3</span></div>
+        <div class="yellow-block"><span>4</span></div>
+        <div class="yellow-block"><span>5</span></div>
+        <div class="yellow-block"><span>6</span></div>
+        <div class="yellow-block"><span>7</span></div>
+        <div class="wider-yellow-block"><span>8</span></div>
+        <div class="green-block full-width"><span>9</span></div>
+    </div>
+    
+    <div class="checkbox-section">
+      <label class="checkbox-label">
+          <input type="checkbox" class="styled-checkbox">
+          <span>Option1</span>
+      </label>
+
+      <label class="checkbox-label">
+          <input type="checkbox" class="styled-checkbox">
+          <span>Option2</span>
+      </label>
+
+      <label class="checkbox-label">
+          <input type="checkbox" class="styled-checkbox">
+          <span>Option3</span>
+      </label>
+    </div>
+
+</body>
+
+</html>

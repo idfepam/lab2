@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;  /* Adds this line */
+  align-items: center; /* Center the container vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.flexbox-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; /* Ensures the boxes start at the top */
+}
+
+.yellow-block, .green-block, .wider-yellow-block, .first-green-block {
+  height: 50px;
+  width: 25px;
+  margin: 5px;
+}
+
+.yellow-block, .wider-yellow-block {
+  background-color: yellow;
+}
+
+.wider-yellow-block {
+  flex-grow: 1; /* This will make it take up the remaining space */
+}
+
+.first-green-block {
+  background-color: green;
+}
+
+.green-block {
+  background-color: green;
+}
+
+.green-block.full-width {
+  flex-basis: 100%; /* Makes the green block take full width */
+  order: 10; /* Ensures it's the last element */
+}
+
+.checkbox-section {
+  margin-top: 20px;
+}
+
+.styled-checkbox {
+  display: none; /* Скриваємо стандартний checkbox */
+}
+
+.checkbox-label {
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+.checkbox-label span {
+  vertical-align: middle;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.styled-checkbox:checked + span {
+  background-color: #FFD700; /* Золотий колір, коли checkbox вибрано */
+}
+
+
+.header {
+  font-size: 24px;
+  text-align: center;
+}
+
+.float-image {
+  float: left;
+  margin-left: 10px;
+}
+
+.positioned-element {
+  position: relative;
+  top: 50%;
+  left:0;
+  padding: 10px;
+}
