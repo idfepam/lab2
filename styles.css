@@ -65,11 +65,9 @@ body {
   background-color: #FFD700; /* Золотий колір, коли checkbox вибрано */
 }
 
-
 #header {
   font-size: 24px;
   text-align: center;
-  color: green;
 }
 
 .float-image {
