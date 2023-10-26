@@ -37,7 +37,6 @@ body {
 
 .green-block.full-width {
   flex-basis: 100%; /* Makes the green block take full width */
-  order: 10; /* Ensures it's the last element */
 }
 
 .checkbox-section {
